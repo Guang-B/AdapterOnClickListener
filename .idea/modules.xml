@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AdapterOnClickListener.iml" filepath="$PROJECT_DIR$/AdapterOnClickListener.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdapterOnClickListener.iml" filepath="$PROJECT_DIR$/.idea/modules/AdapterOnClickListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdapterOnClickListener.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdapterOnClickListener.app.iml" />
     </modules>
   </component>
 </project>

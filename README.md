@@ -4,13 +4,13 @@
 ```java
 public class AdapterRv extends RecyclerView.Adapter<AdapterRv.MyHolder>{
 
-    private onItemClick click;
+    private OnItemClick click;
 
-    public interface onItemClick {
+    public interface OnItemClick {
         void onItemClick(int position, String data);
     }
 
-    public void setOnClickListener(onItemClick onClick) {
+    public void setOnClickListener(OnItemClick onClick) {
         click = onClick;
     }
     
@@ -30,7 +30,7 @@ public class AdapterRv extends RecyclerView.Adapter<AdapterRv.MyHolder>{
 
 - Use Onclick
 ```java
-public class MainActivity extends AppCompatActivity implements AdapterRv.onItemClick{
+public class MainActivity extends AppCompatActivity implements AdapterRv.OnItemClick{
 
     String[] data ={"M","Fadli","Zein"};
 
