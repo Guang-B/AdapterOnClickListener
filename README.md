@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements AdapterRv.OnItemC
         ...
         
         AdapterRv adapterRv = new AdapterRv(this, data);
-        adapterRv.setOnClickListener2(MainActivity.this);
+        adapterRv.setOnClickListener(MainActivity.this);
 
         recyclerView.setAdapter(adapterRv);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
